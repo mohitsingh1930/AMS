@@ -54,10 +54,11 @@ app.use(session({
 }))
 
 
-
+// GET REQUEST ROOT PAGE
 app.get("/", (req, res) => {
 	res.render("home");
 });
+
 
 const teacher = require(__dirname + "/routes/teacherSection.js")
 app.use("/teacher", teacher)
