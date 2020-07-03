@@ -1,0 +1,40 @@
+#section-1{
+  margin-bottom:8%;
+}
+.row{
+  padding-top:5px;
+}
+.row hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width:93%;
+  position: relative;
+  right:15px;
+}
+.vertical-line{
+  border-right:4px solid rgba(54, 49, 49, 0.5);
+  height:400px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* FOOTER SECTION */
+#footer{
+  background-color:#343a40;
+  text-align:center;
+  padding:20px;
+}
+#footer a{
+  margin:5px;
+  padding:5px;
+}
+
+.copyright{
+  color:white;
+  font-size:0.9rem;
+  margin-top:10px;
+}
